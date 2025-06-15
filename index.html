@@ -34,6 +34,103 @@
                         </ul>
                     </div>
                 </div>
+                
+                <div class="card shadow-sm mt-4">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-comments me-2"></i>Project Discussion</h5>
+                        <p class="text-muted mb-4">Discuss the test project, share feedback, and collaborate on improvements.</p>
+                        
+                        <div id="discussionThread" class="discussion-thread mb-4">
+                            <div class="discussion-message system-message">
+                                <div class="message-header">
+                                    <i class="fas fa-robot me-2"></i>
+                                    <strong>System</strong>
+                                    <span class="message-time">Just now</span>
+                                </div>
+                                <div class="message-content">
+                                    Welcome to the project discussion! Share your thoughts about the success-test-1750027586 project. What features would you like to see? Any bugs to report?
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <form id="discussionForm" class="discussion-form">
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label for="discussionName" class="form-label">Your Name</label>
+                                    <input type="text" class="form-control" id="discussionName" name="name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="discussionRole" class="form-label">Role</label>
+                                    <select class="form-select" id="discussionRole" name="role">
+                                        <option value="developer">Developer</option>
+                                        <option value="tester">Tester</option>
+                                        <option value="designer">Designer</option>
+                                        <option value="pm">Project Manager</option>
+                                        <option value="user">End User</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="discussionTopic" class="form-label">Topic</label>
+                                <select class="form-select" id="discussionTopic" name="topic">
+                                    <option value="feature">Feature Request</option>
+                                    <option value="bug">Bug Report</option>
+                                    <option value="improvement">Improvement</option>
+                                    <option value="question">Question</option>
+                                    <option value="feedback">General Feedback</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="discussionMessage" class="form-label">Message</label>
+                                <textarea class="form-control" id="discussionMessage" name="message" rows="3" required placeholder="Share your thoughts about the project..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-comment me-2"></i>Post Message
+                            </button>
+                        </form>
+                        <div id="discussionFeedback" class="mt-3"></div>
+                    </div>
+                </div>
+                
+                <div class="card shadow-sm mt-4">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-envelope me-2"></i>Contact Us</h5>
+                        <form id="contactForm" class="contact-form">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="firstName" class="form-label">First Name</label>
+                                    <input type="text" class="form-control" id="firstName" name="firstName" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="lastName" class="form-label">Last Name</label>
+                                    <input type="text" class="form-control" id="lastName" name="lastName" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject</label>
+                                <select class="form-select" id="subject" name="subject" required>
+                                    <option value="">Choose a subject...</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="support">Technical Support</option>
+                                    <option value="feedback">Feedback</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" name="message" rows="4" required placeholder="Tell us how we can help you..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-paper-plane me-2"></i>Send Message
+                            </button>
+                        </form>
+                        <div id="formFeedback" class="mt-3"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -42,3 +139,5 @@
     <script src="js/app.js"></script>
 </body>
 </html>
+<!-- Test deployment -->
+<- ✅ GitHub Pages Test deployment -->

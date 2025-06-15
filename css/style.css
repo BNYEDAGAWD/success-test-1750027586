@@ -18,3 +18,137 @@ body {
 .card:hover {
     transform: translateY(-2px);
 }
+
+.contact-form .form-control,
+.contact-form .form-select {
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    transition: all 0.3s ease;
+}
+
+.contact-form .form-control:focus,
+.contact-form .form-select:focus {
+    border-color: var(--brand-primary);
+    box-shadow: 0 0 0 0.2rem rgba(79, 70, 229, 0.25);
+}
+
+.contact-form .btn-primary {
+    background-color: var(--brand-primary);
+    border-color: var(--brand-primary);
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.contact-form .btn-primary:hover {
+    background-color: #3730a3;
+    border-color: #3730a3;
+    transform: translateY(-1px);
+}
+
+.form-feedback {
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.form-feedback.success {
+    background-color: #d1e7dd;
+    color: #0f5132;
+    border: 1px solid #badbcc;
+}
+
+.form-feedback.error {
+    background-color: #f8d7da;
+    color: #842029;
+    border: 1px solid #f5c2c7;
+}
+
+.discussion-thread {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    padding: 1rem;
+    background-color: #fafafa;
+}
+
+.discussion-message {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.discussion-message:hover {
+    transform: translateY(-1px);
+}
+
+.discussion-message:last-child {
+    margin-bottom: 0;
+}
+
+.message-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.message-header strong {
+    margin-right: 0.5rem;
+}
+
+.message-time {
+    margin-left: auto;
+    color: #6c757d;
+    font-size: 0.8rem;
+}
+
+.message-content {
+    color: #495057;
+    line-height: 1.5;
+}
+
+.system-message {
+    background-color: #e7f3ff;
+    border-left: 4px solid var(--brand-primary);
+}
+
+.user-message {
+    background-color: #f8f9fa;
+    border-left: 4px solid #28a745;
+}
+
+.topic-badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border-radius: 0.375rem;
+    margin-left: 0.5rem;
+}
+
+.topic-feature { background-color: #d1ecf1; color: #0c5460; }
+.topic-bug { background-color: #f8d7da; color: #721c24; }
+.topic-improvement { background-color: #d4edda; color: #155724; }
+.topic-question { background-color: #fff3cd; color: #856404; }
+.topic-feedback { background-color: #e2e3e5; color: #383d41; }
+
+.role-badge {
+    display: inline-block;
+    padding: 0.2rem 0.4rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+    border-radius: 0.25rem;
+    margin-left: 0.25rem;
+}
+
+.role-developer { background-color: #6f42c1; color: white; }
+.role-tester { background-color: #fd7e14; color: white; }
+.role-designer { background-color: #e83e8c; color: white; }
+.role-pm { background-color: #20c997; color: white; }
+.role-user { background-color: #6c757d; color: white; }
