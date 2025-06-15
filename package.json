@@ -1,0 +1,12 @@
+{
+  "name": "success-test-1750027586",
+  "version": "1.0.0",
+  "description": "Universal template for Brandon's web app projects",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "deploy": "git add . && git commit -m 'deploy: update' && git push"
+  },
+  "author": "Brandon Nye",
+  "license": "MIT"
+}

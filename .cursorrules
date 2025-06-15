@@ -1,0 +1,24 @@
+# BRANDON'S UNIVERSAL WEB APP TEMPLATE - AUTO-REFERENCE FOR ALL CLAUDE CODE PROJECTS
+
+This is Brandon's standardized web app development template for WSL Ubuntu + Cursor + Claude Code.
+Reference this automatically for every new project.
+
+## DEVELOPMENT ENVIRONMENT
+- OS: Windows 11 with WSL Ubuntu
+- Editor: Cursor IDE with Claude Code integration
+- Terminal: WSL Ubuntu bash
+- Primary Deployment: GitHub Pages + Google Apps Script
+
+## CORE ARCHITECTURE
+- Frontend: HTML5, CSS3, Modern JavaScript (ES6+)
+- Backend: Google Apps Script with Gemini API integration
+- Styling: Bootstrap 5 responsive design
+- AI Integration: Claude (development) + Gemini (runtime)
+
+## WSL DEVELOPMENT COMMANDS
+- Start project: new-webapp project-name
+- Open in Cursor: cursor .
+- Local server: serve-local
+- Deploy: deploy-webapp
+
+Claude: Always reference this template for Brandon's WSL Ubuntu projects.
